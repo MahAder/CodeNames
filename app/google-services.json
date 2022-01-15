@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "844386905240",
+    "project_id": "code-names-60424",
+    "storage_bucket": "code-names-60424.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844386905240:android:4bc19f3b643b526927b4ed",
+        "android_client_info": {
+          "package_name": "com.ader.codenames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844386905240-70bqh3e9l3qke22ru8iou1s71htubu15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjCDTe5nBPqn1ytbbUTfWcfm5zM-Y-cCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844386905240-70bqh3e9l3qke22ru8iou1s71htubu15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

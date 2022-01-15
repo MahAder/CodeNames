@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Code Names</string>
+
+    <string name="start_new_game">Почати нову гру</string>
+    <string name="continue_old_game">Продовжити гру</string>
+    <string name="master_key">Пароль для ведучих</string>
+    <string name="choose_master_key">Введіть пароль для ведучих</string>
+    <string name="approve">Підтвердити</string>
+    <string name="turn_up_words">Перевернути слова</string>
+    <string name="begin_game">Почати гру</string>
+    <string name="share_with_other_master">Поділитися з іншим ведучим</string>
+    <string name="blue_team_win">Синя команда перемогла!</string>
+    <string name="red_team_win">Червона команда перемогла!</string>
+    <string name="death_blue_team_win">Вас вбито:( Синя команда перемогла</string>
+    <string name="death_red_team_win">Вас вбито:( Червона команда перемогла</string>
+    <string name="complete_game">Завершити гру</string>
+    <string name="continue_game">Продовжити гру</string>
+    <string name="red_team_move">Хід червоної команди</string>
+    <string name="blue_team_move">Хід синьої команди</string>
+    <string name="end_move">Завершити хід</string>
+</resources>

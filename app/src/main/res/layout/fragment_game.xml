@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/words_recycler"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/redWordsLeft"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/blueWordsLeft"
+        android:textColor="@android:color/white"
+        android:background="@color/red_word_color"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        tools:text="sldmlasm"/>
+
+    <View
+        android:id="@+id/redTeamSelector"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/blueWordsLeft"
+        android:visibility="gone"
+        android:background="@drawable/move_team_selector"/>
+
+    <TextView
+        android:id="@+id/blueWordsLeft"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/redWordsLeft"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@android:color/white"
+        android:background="@color/blue_word_color"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        tools:text="sldmlasm"/>
+
+    <View
+        android:id="@+id/blueTeamSelector"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/redWordsLeft"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"
+        android:background="@drawable/move_team_selector"/>
+
+    <TextView
+        android:id="@+id/startGame"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/red_word_color_item_background"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="@string/begin_game"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/shareWithMaster"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/startGame"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/blue_word_item_background"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="@string/share_with_other_master"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/endMoveTv"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toTopOf="@id/blueWordsLeft"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/yellow_word_item_background"
+        android:textColor="@android:color/white"
+        android:text="@string/end_move"
+        android:gravity="center">
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

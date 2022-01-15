@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/yellowWordTv"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/word_item_height"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/yellow_word_item_background"
+    android:textColor="@android:color/white"
+    android:gravity="center"
+    tools:text="circle"
+    android:textAllCaps="true"
+    android:layout_marginStart="2dp"
+    android:layout_marginEnd="2dp"
+    android:layout_marginTop="5dp">
+</TextView>
